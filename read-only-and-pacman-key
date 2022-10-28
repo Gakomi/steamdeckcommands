@@ -2,3 +2,5 @@ Set up password with passwd
 
 Disable read-only mode: sudo btrfs property set -ts / ro false
 
+Initialize keys: sudo pacman-key --init
+Populate keys: sudo pacman-key --populate archlinux

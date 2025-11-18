@@ -1,0 +1,3 @@
+Set up password with passwd
+
+Disable read-only mode: sudo steamos-readonly disable

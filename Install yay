@@ -1,0 +1,7 @@
+Install yay on Steam OS
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+sudo pacman-key --populate holo
+sudo pacman -Sy archlinux-keyring
+
+sudo pacman -S --needed git base-devel glibc linux-api-headers libxml2 

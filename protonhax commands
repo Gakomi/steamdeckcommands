@@ -1,3 +1,3 @@
 protonhax init %COMMAND% | steam command to add as argument in Launch Options in order to active protonhax on the app you want to run
 protonhax ls To | list all running appids use
-protonhax run <appid> <path/to/program> [args...] | To run a program within the same proton prefix as the appid
+protonhax run $(protonhax ls) path-to-program | To run a program within the same proton prefix as the appid
